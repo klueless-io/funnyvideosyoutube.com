@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd /home/david/Desktop/sites-go/funnyvideosyoutube.com
+cd /Users/davidcruwys/dev/sites/funnyvideosyoutube.com
 #ls -lsa
 #pwd
 
@@ -23,8 +23,8 @@ else
   git commit -am "first commit";
 
   echo 'setup git flow';
-  git flow init --defaults
-
+  git flow init -d
+  
   git checkout master
 
   echo 'setup first hotfix version';
